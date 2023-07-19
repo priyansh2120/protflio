@@ -2,7 +2,7 @@ import Image from "next/image";
 import GitHubCalendar from "react-github-calendar";
 import RepoCard from "../../components/Repo/repocard.js";
 import styles from "../../styles/GithubPage.module.css";
-import { ThemeContext } from "../../contexts/theme-context.js";
+import { ThemeContext } from "../../contexts/theme-context";
 import { useContext } from "react";
 
 const GithubPage = ({ repos, user }) => {
