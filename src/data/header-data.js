@@ -6,5 +6,5 @@ export const headerData = {
   image: "https://i.ibb.co/ZcSLy0c/IMG20230712194353.jpg",
   imagebw: "https://i.ibb.co/ZcSLy0c/IMG20230712194353.jpg",
   resumePdf:
-    "https://drive.google.com/file/d/1NEKfGfuxU-5yQjYGlr_V6QuOgfVJihur/view?usp=sharing",
+    "https://drive.google.com/file/d/1nWUDhQ0sIeM_OkPOHh56p1OOk2DOwd8p/view?usp=sharing",
 };
