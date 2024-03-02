@@ -58,7 +58,7 @@ import vue from '../assets/svg/skills/vue.svg'
 import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import node from '../assets/svg/skills/node.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -115,6 +115,8 @@ export const skillsImage = (skill) => {
             return bootstrap;
         case 'bulma':
             return bulma;
+        case 'node':
+            return node;
         case 'capacitorjs':
             return capacitorjs;
         case 'coffeescript':

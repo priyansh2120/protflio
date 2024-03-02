@@ -10,12 +10,20 @@ import two from "../assets/svg/projects/two.svg";
 export const projectsData = [
   {
     id: 1,
-    projectName: "EdChart",
-    projectDesc: "Social media for students.",
-    tags: ["React", "Node", "Express", "MongoDB"],
-    code: "https://github.com/priyansh2120/Edchart",
-    demo: "",
-    image: six,
+    projectName: "Sensi-Certi",
+    projectDesc: "A platform for creating and verifying certificates.",
+    tags: [
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "MongoDB",
+      "Solidity",
+      "Ethereum",
+    ],
+    code: "https://gitfront.io/r/priyansh2120/GbmiaSG96keX/sensi-certi/",
+    demo: "https://sensi-certi-updated-coral.vercel.app",
+    image: seven,
   },
   {
     id: 2,
@@ -34,6 +42,15 @@ export const projectsData = [
     code: "https://github.com/priyansh2120/esummitjr",
     demo: "https://esummit23.ecelliiitp.org",
     image: eight,
+  },
+  {
+    id: 4,
+    projectName: "EdChart",
+    projectDesc: "Social media for students.",
+    tags: ["React", "Node", "Express", "MongoDB"],
+    code: "https://github.com/priyansh2120/Edchart",
+    demo: "https://edchartpriyansh.vercel.app",
+    image: six,
   },
   {
     id: 4,
