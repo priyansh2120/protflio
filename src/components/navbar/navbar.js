@@ -32,6 +32,7 @@ function Navbar() {
             return name;
         }
     };
+    const backgroundColor = theme.type === 'light' ? 'rgb(239, 243, 244)' : '#2c3e50';
 
     return (
         <div className={styles.navbar}>
@@ -88,7 +89,8 @@ function Navbar() {
                                     <IoHomeSharp
                                         className="text-xl sm:text-2xl"
                                     />
-                                    <span className="w-6/12 text-[1.125rem] sm:text-[1.3rem] font-semibold">
+                                    <span className="w-6/12 text-[1.125rem] sm:text-[1.3rem] font-semibold"
+                                    >
                                         Home
                                     </span>
                                 </div>
