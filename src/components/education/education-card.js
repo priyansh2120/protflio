@@ -9,10 +9,11 @@ import styles from '../../styles/education.module.css';
 function EducationCard({ id, institution, course, startYear, endYear }) {
 
     const { theme } = useContext(ThemeContext);
+    const backgroundColor = theme.type === 'light' ? 'rgb(239, 243, 244)' : '#2c3e50';
 
     return (
         <Fade bottom>
-            <div key={id} className={`${styles.educationCard} bg-[#1E2732]`} >
+            <div key={id} className={`${styles.educationCard} `} style={{ backgroundColor }} >
                 <div className={styles.educardImg} style={{ backgroundColor: theme.primary }}>
                     <Image src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
                 </div>
