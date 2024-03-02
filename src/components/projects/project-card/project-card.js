@@ -12,7 +12,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
         <Fade bottom>
             <div
                 key={id}
-                className={styles.singleProject}
+                className={`${styles.singleProject} m-5`}
                 style={{ backgroundColor: theme.quaternary }}
             >
                 <div className={styles.projectContent}>

@@ -8,6 +8,7 @@ import { ThemeContext } from "../../contexts/theme-context";
 import { projectsData } from "../../data/projects-data";
 
 function ProjectPage() {
+  // const classes = useStyles();
   const [search, setSearch] = useState("");
   const { theme } = useContext(ThemeContext);
 
@@ -68,29 +69,33 @@ function ProjectPage() {
   const classes = useStyles();
 
   return (
-    <div className="projectPage" style={{ backgroundColor: theme.secondary }}>
+    <div className="projectPage " style={{ backgroundColor: theme.secondary }}>
       <div
-        className="projectPage-header"
+        className="projectPage-header flex items-center justify-between h-20  px-10 shadow-xl"
         style={{ backgroundColor: theme.primary }}
       >
-        <Link href="/">
-          <AiOutlineHome className={classes.home} />
+        <Link href="/" className='h-20 text-2xl'>
+          <AiOutlineHome className={classes.home} style={{ fontSize: '2em' }} />
+
         </Link>
-        <h1 style={{ color: theme.secondary }}>Projects</h1>
-      </div>
-      <div className="projectPage-container">
-        <div className="projectPage-search">
+
+        {/* <div className="projectPage-search align-middle justify-center flex py-8 rounded-md ">
           <input
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search project..."
-            className={classes.search}
+            className={`px-4 py-2 rounded-md ${classes.search} text-lg`}
           />
-        </div>
-        <div className="project-container">
+        </div> */}
+
+        <h1 className="text-2xl" style={{ color: theme.secondary }}>Projects</h1>
+      </div>
+      <div className="projectPage-container">
+
+        <div className="project-container my-8">
           <Grid
-            className="project-grid"
+            className="project-grid "
             container
             direction="row"
             alignItems="center"
