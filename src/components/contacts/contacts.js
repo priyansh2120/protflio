@@ -76,7 +76,7 @@ function Contacts() {
       setOpen(true);
     }
   };
-
+  const backgroundColor = theme.type === 'light' ? 'rgb(239, 243, 244)' : '#2c3e50';
   return (
     <div
       className={styles.contacts}
@@ -93,7 +93,7 @@ function Contacts() {
                   htmlFor="Name"
                   className="bg-[#15202B] text-[#EFF3F4] 
                                 font-semibold text-[0.9rem] py-0 px-[5px] 
-                                inline-flex translate-x-[25px] translate-y-[50%]"
+                                inline-flex translate-x-[25px] translate-y-[50%] rounded-sm"
                 >
                   Name
                 </label>
@@ -104,9 +104,10 @@ function Contacts() {
                   type="text"
                   name="user_name"
                   className={`${styles.formInput}  
-                                    border-2 border-[#8B98A5] bg-[#15202B]
+                                    border-2 border-[#8B98A5] 
                                      text-[#EFF3F4] font-medium transition 
                                      focus:border-[#1D9BF0]`}
+                  style={{ backgroundColor }}
                 />
               </div>
               <div className={styles.inputContainer}>
@@ -115,7 +116,7 @@ function Contacts() {
                   className="bg-[#15202B] text-[#EFF3F4] 
                                     font-semibold text-[0.9rem] px-[5px] 
                                     inline-flex translate-x-[25px] 
-                                    translate-y-[50%]"
+                                    translate-y-[50%] rounded-sm"
                 >
                   Email
                 </label>
@@ -126,9 +127,10 @@ function Contacts() {
                   type="email"
                   name="user_email"
                   className={`${styles.formInput}  
-                                    border-2 border-[#8B98A5] bg-[#15202B]
+                                    border-2 border-[#8B98A5] 
                                      text-[#EFF3F4] font-medium transition
                                       focus:border-[#1D9BF0]`}
+                  style={{ backgroundColor }}
                 />
               </div>
               <div className={styles.inputContainer}>
@@ -137,7 +139,8 @@ function Contacts() {
                   className="bg-[#15202B] text-[#EFF3F4]
                                      font-semibold text-[0.9rem] px-[5px] 
                                      inline-flex translate-x-[25px] 
-                                     translate-y-[50%]"
+                                     translate-y-[50%] rounded-sm"
+
                 >
                   Message
                 </label>
@@ -149,8 +152,9 @@ function Contacts() {
                   name="message"
                   className={`${styles.formMessage} 
                                     border-2 border-[#8B98A5] 
-                                    focus:border-[#1D9BF0] bg-[#15202B]
+                                    focus:border-[#1D9BF0] 
                                      text-[#EFF3F4] font-medium transition`}
+                  style={{ backgroundColor }}
                 />
               </div>
 
