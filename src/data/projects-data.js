@@ -37,7 +37,7 @@ export const projectsData = [
   {
     id: 3,
     projectName: "E Summit'23 Junior",
-    projectDesc: "TEvent Website for E-Summit23 Junior.",
+    projectDesc: "Event Website for E-Summit23 Junior.",
     tags: ["NextJs", "Tailwind CSS", "MongoDB"],
     code: "https://github.com/priyansh2120/esummitjr",
     demo: "https://esummit23.ecelliiitp.org",
@@ -53,7 +53,7 @@ export const projectsData = [
     image: six,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Note Keeper App",
     projectDesc: "Keeping Notes",
     tags: ["ReactJs", "CSS"],
@@ -62,7 +62,7 @@ export const projectsData = [
     image: four,
   },
   {
-    id: 5,
+    id: 6,
     projectName: "UNIX Script for deployment of LAMP and MERN Stack",
     projectDesc: "UNIX Script for deployment of LAMP and MERN Stack",
     tags: ["BASH Shell", "Cents OS VM"],
@@ -71,13 +71,109 @@ export const projectsData = [
     image: five,
   },
   {
-    id: 6,
+    id: 7,
     projectName: "To-Do-List",
     projectDesc: "Creates a to do list. Backend will be implemented later",
     tags: ["EJS", "NodeJS", "HTML", "CSS"],
     code: "https://github.com/priyansh2120/to-do-list",
     demo: "",
     image: one,
+  },
+  {
+    id: 8,
+    projectName: "Django and NodeJs Deployment",
+    projectDesc:
+      "Automated Django and Node.js Website Deployment on AWS based on triggers.",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: [
+      "AWS",
+      "Jenkins",
+      "Django",
+      "NodeJs",
+      "Docker",
+      "DockerHub",
+      "Groovy",
+      "GitHub",
+    ],
+    code: "https://github.com/priyansh2120/node-and-django-deployment",
+    demo: "",
+    image: five,
+  },
+  {
+    id: 9,
+    projectName: "Chat App",
+    projectDesc: "Chat App using Socket.io and NodeJs",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: [
+      "NodeJs",
+      "Socket.io",
+      "ReactJs",
+      "MongoDB",
+      "ExpressJs",
+      "Material-UI",
+    ],
+    code: "https://github.com/priyansh2120/chat-app-assignment",
+    demo: "https://chat-app-wordlecuo.onrender.com",
+    image: seven,
+  },
+  {
+    id: 10,
+    projectName: "Basic Authentication and Dashboard",
+    projectDesc:
+      "Basic Authentication and Dashboard using NodeJs and ExpressJs",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: ["NodeJs", "ExpressJs", "MongoDB", "EJS", "HTML", "CSS"],
+    code: "https://github.com/priyansh2120/basic-signin-signup",
+    demo: "https://dashboard-cb79.onrender.com",
+    image: eight,
+  },
+  {
+    id: 11,
+    projectName: "Dynamic Form Renderer",
+    projectDesc:
+      "Dynamic Form Renderer using ReactJs builds form based on JSON input.",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: ["ReactJs", "Material-UI", "JSON", "HTML", "CSS"],
+    code: "https://github.com/priyansh2120/Frontend-Assignment",
+    demo: "https://frontend-assignment-eight-sigma.vercel.app",
+    image: three,
+  },
+  {
+    id: 12,
+    projectName: "Calculator",
+    projectDesc: "Basic calculator using HTML, CSS and JavaScript.",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: ["HTML", "CSS", "JavaScript"],
+    code: "https://github.com/priyansh2120/calculator",
+    demo: "https://calculator-priyansh2120.vercel.app",
+    image: three,
+  },
+  {
+    id: 13,
+    projectName: "Personalized Recommendation System",
+    projectDesc:
+      "Personalized Recommendation System using Collaborative Filtering and Ranking.",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: [
+      "Python",
+      "Collaborative Filtering",
+      "Jupyter Notebook",
+      "KNN",
+      "Apache Kafka",
+    ],
+    code: "https://github.com/priyansh2120/recommendation-grid",
+    demo: "",
+    image: two,
+  },
+  {
+    id: 14,
+    projectName: "Portfolio Website",
+    projectDesc: "Personal Portfolio Website using NextJs and Tailwind CSS.",
+    //  AWS EC2 (Deployed On), GitHub, Docker, DockerHub, Jenkins(CI/CD), Groovy.
+    tags: ["NextJs", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+    code: "https://github.com/priyansh2120/protflio",
+    demo: "https://protflio.vercel.app",
+    image: two,
   },
 ];
 
