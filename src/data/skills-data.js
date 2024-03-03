@@ -11,7 +11,7 @@ export const skillsData = [
   // 'Go',
   "Typescript",
   "Figma",
-  "Ubuntu",
+  // "Ubuntu",
   "MongoDB",
   "Tailwind",
   "MySQL",
