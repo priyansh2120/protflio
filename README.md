@@ -11,19 +11,19 @@ To run this application locally, you need to have Node.js and npm (Node Package 
 1. Clone this repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/your-username/next-js-app.git
+   git clone https://github.com/priyansh2120/protflio.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd next-js-app
+   cd protflio
    ```
 
 3. Install the required dependencies by running:
 
    ```
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 ## Running the Application
