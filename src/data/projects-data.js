@@ -45,7 +45,7 @@ export const projectsData = [
     projectName: "E Summit'23",
     projectDesc: "Event Website for E-Summit23",
     tags: ["NextJs", "Tailwind CSS", "MongoDB"],
-    code: "https://github.com/priyansh2120/esummit-23",
+    code: "https://gitfront.io/r/priyansh2120/DAsBNcqncphE/esummit-23/",
     demo: "https://esummit23.ecelliiitp.org",
     image: seven,
   },
