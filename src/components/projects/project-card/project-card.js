@@ -31,12 +31,6 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 color: theme.buttonColor,
                                 borderColor: theme.buttonColor,
                             }}
-                            onMouseEnter={(e) =>
-                                (e.currentTarget.style.backgroundColor = theme.buttonColor)
-                            }
-                            onMouseLeave={(e) =>
-                                (e.currentTarget.style.backgroundColor = 'transparent')
-                            }
                             aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name.replace(' ', '-').toLowerCase()}-demo`}
                         >
                             <FaPlay
@@ -54,12 +48,6 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 color: theme.buttonColor,
                                 borderColor: theme.buttonColor,
                             }}
-                            onMouseEnter={(e) =>
-                                (e.currentTarget.style.backgroundColor = theme.buttonColor)
-                            }
-                            onMouseLeave={(e) =>
-                                (e.currentTarget.style.backgroundColor = 'transparent')
-                            }
                             aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name.replace(' ', '-').toLowerCase()}-code`}
                         >
                             <FaCode
