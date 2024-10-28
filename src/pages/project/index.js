@@ -79,7 +79,7 @@ function ProjectPage() {
 
         </Link>
 
-        {/* <div className="projectPage-search align-middle justify-center flex py-8 rounded-md ">
+       <div className="projectPage-search align-middle justify-center flex py-8 rounded-md ">
           <input
             type="text"
             value={search}
@@ -87,7 +87,7 @@ function ProjectPage() {
             placeholder="Search project..."
             className={`px-4 py-2 rounded-md ${classes.search} text-lg`}
           />
-        </div> */}
+        </div> 
 
         <h1 className="text-2xl" style={{ color: theme.secondary }}>Projects</h1>
       </div>
