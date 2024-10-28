@@ -13,11 +13,18 @@ export const experienceData = [
     startYear: "Jan 2022",
     endYear: "Present",
   },
-  // {
-  //     id: 3,
-  //     company: 'Learning New Technology For Everyday',
-  //     jobtitle: 'Self Learning',
-  //     startYear: '2018',
-  //     endYear: 'Present'
-  // },
+  {
+    id: 3,
+    company: "Metastart",
+    jobtitle: "Full Stack Developer Intern",
+    startYear: "Mar 2024",
+    endYear: "May 2024",
+  },
+  {
+    id: 4,
+    company: "Fractal Analytics",
+    jobtitle: "Project Intern",
+    startYear: "May 2024",
+    endYear: "Oct 2024",
+  },
 ];
