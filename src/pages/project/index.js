@@ -20,7 +20,7 @@ function ProjectPage() {
   const useStyles = makeStyles((t) => ({
     search: {
       color: theme.tertiary,
-      width: "60%",            // Wider width for larger screens
+      width: "100%",            // Wider width for larger screens
       maxWidth: "100%",         // Ensures responsiveness
       height: "2.75rem",
       outline: "none",
