@@ -6,6 +6,9 @@ import placeholder from '../../../assets/png/placeholder.png';
 import styles from '../../../styles/singleProject.module.css';
 
 function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+
+    const Color = theme.type === 'light' ? 'text-slate-600' : 'text-slate-200';
+
     return (
         <Fade bottom>
             <div
@@ -26,15 +29,17 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             href={demo}
                             target='_blank'
                             rel='noreferrer'
-                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 transition hover:scale-[1.1]"
-                            style={{
-                                color: theme.buttonColor,
-                                borderColor: theme.buttonColor,
-                            }}
-                            aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name.replace(' ', '-').toLowerCase()}-demo`}
+                            className={`flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 hover:border-[#15202B]  border-[#1c2223] hover:text-[#1D9BF0] transition hover:scale-[1.1] ${Color}`}
+                            aria-labelledby={`${name
+                                .replace(' ', '-')
+                                .toLowerCase()} ${name
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-demo`}
                         >
                             <FaPlay
-                                id={`${name.replace(' ', '-').toLowerCase()}-demo`}
+                                id={`${name
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-demo`}
                                 className="text-[1.1rem] transition"
                                 aria-label='Demo'
                             />
@@ -43,15 +48,17 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             href={code}
                             target='_blank'
                             rel='noreferrer'
-                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 transition hover:scale-[1.1]"
-                            style={{
-                                color: theme.buttonColor,
-                                borderColor: theme.buttonColor,
-                            }}
-                            aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name.replace(' ', '-').toLowerCase()}-code`}
+                            className="flex items-center text-slate-600 border-[#1c2223] justify-center w-[40px] h-[40px] rounded-[50px] border-2  hover:border-[#15202B]  hover:text-[#1D9BF0] transition hover:scale-[1.1]"
+                            aria-labelledby={`${name
+                                .replace(' ', '-')
+                                .toLowerCase()} ${name
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-code`}
                         >
                             <FaCode
-                                id={`${name.replace(' ', '-').toLowerCase()}-code`}
+                                id={`${name
+                                    .replace(' ', '-')
+                                    .toLowerCase()}-code`}
                                 className="text-[1.1rem] transition"
                                 aria-label='Code'
                             />
