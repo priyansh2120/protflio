@@ -1,7 +1,7 @@
 export const headerData = {
   name: "Priyansh",
   title: "Hello! I am",
-  description:
+  desciption:
     "Hello! I'm Priyansh, a dedicated programmer with a strong self-learning attitude. I'm passionate about problem-solving and continuously exploring new technologies.",
   image: "https://i.ibb.co/4mBb77L/Priyansh-NA-Task1.jpg",
   imagebw: "https://i.ibb.co/4mBb77L/Priyansh-NA-Task1.jpg",
