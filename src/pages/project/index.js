@@ -20,7 +20,8 @@ function ProjectPage() {
   const useStyles = makeStyles((t) => ({
     search: {
       color: theme.tertiary,
-      width: "40%",
+      width: "60%",            // Wider width for larger screens
+      maxWidth: "100%",         // Ensures responsiveness
       height: "2.75rem",
       outline: "none",
       border: "none",
@@ -38,7 +39,7 @@ function ProjectPage() {
         color: theme.tertiary,
       },
       [t.breakpoints.down("sm")]: {
-        width: "350px",
+        width: "350px",         // Width on smaller screens
       },
     },
     home: {
@@ -65,7 +66,6 @@ function ProjectPage() {
       },
     },
   }));
-
   const classes = useStyles();
 
   return (
