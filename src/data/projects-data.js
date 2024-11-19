@@ -59,6 +59,22 @@ export const projectsData = [
     image: eight,
   },
   {
+    id: 20,
+    projectName: "IIIT Pune Chatbot",
+    projectDesc: "A RAG-based document chat application that can answer query related to college, having knowledge base as college website.",
+    tags: [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "Google Gemini",
+      "FAISS",
+      "RAG"
+    ],
+    code: "https://github.com/priyansh2120/iiitp_chatbot",
+    demo: "",
+    image: three,
+  },
+  {
     id: 3,
     projectName: "Chat with Docs (not deployed)",
     projectDesc: "A RAG-based document chat application supporting multiple file formats (PDF, DOCX, CSV) with Google's Gemini Pro integration.",
